@@ -1,0 +1,368 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2);
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-brown {
+  background-color: #756157;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.button-blue{
+  background: #82B3D3;
+  padding: 8px 20px;
+}
+
+.button-green {
+  background-color: #7DB54F;
+  padding: 8px 18px;
+}
+
+/* Header */
+
+.navigation-list {
+  list-style-type: none;
+}
+
+.navigation-item {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.navigation-link {
+  color: #000000;
+  text-transform: capitalize;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation-search {
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+}
+
+.navigation-favorite {
+  background-image: url(../img/favorite.svg);
+  background-repeat: no-repeat;
+}
+
+.favorite-count {
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  background-color: #7DB54F;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+.navigation-button {
+  padding: 8px 50px;
+}
+
+/* Main */
+
+.main-index {
+  text-align: center;
+}
+
+.promo {
+  background-image: url(../img/index-background.jpg);
+  background-color: #DDEBF4;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.advantages-item {
+  list-style-type: none;
+}
+
+.advantages-title {
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.grey {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.sky-blue {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.blue {
+  background-color: rgba(130, 179, 211, 1);
+}
+
+.housing {
+  background-color: rgba(131, 179, 211, 0.12);
+  background-image: url(../img/icons/housing.svg);
+  background-repeat: no-repeat;
+}
+
+.food {
+  background-color: #ffffff;
+  background-image: url(../img/icons/food.svg);
+  background-repeat: no-repeat;
+}
+
+.gifts {
+  background-color: rgba(131, 179, 211, 0.12);
+  background-image: url(../img/icons/gifts.svg);
+  background-repeat: no-repeat;
+}
+
+.search-button {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscription {
+  background-image: url(../img/email-background.jpg);
+  background-color: rgba(131, 179, 211, 0.12);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subscription-email {
+  background-color: #f2f2f2;
+  border-radius: 4px 0px 0px 4px;
+  border-style: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.subscription-button {
+  background-color: #82B3D3;
+  padding: 8px 50px;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.footer-social-item {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer-contacts-address-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Hotels */
+
+.hotels {
+  background-image: url(../img/filter-background.jpg);
+  background-color: #8FB1CD;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.hotels-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.submit-button {
+  background-color: #82B3D3;
+  border-radius: 4px;
+  border-style: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 8px 50px;
+}
+
+.reset-button {
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border-style: none;
+  text-transform: uppercase;
+}
+
+.sorting {
+  width: 292px;
+  height: 49px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 20px;
+  background-image: url(../img/icons/sort-down.svg);
+  background-position: left 260px center;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.visual-sorting {
+  list-style-type: none;
+}
+
+.visual-item {
+  width: 48px;
+  height: 48px;
+  padding: 14px 12px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.current-item {
+  border: 2px solid #000000;
+}
+
+.table {
+  background-image: url(../img/icons/table.svg);
+  background-repeat: no-repeat;
+}
+
+.slide {
+  background-image: url(../img/icons/slide.svg);
+  background-repeat: no-repeat;
+}
+
+.list {
+  background-image: url(../img/icons/list.svg);
+  background-repeat: no-repeat;
+}
+
+.hotel-card {
+  list-style-type: none;
+}
+
+.hotel-card-link {
+  text-decoration: none;
+}
+
+.button-info {
+  padding: 8px 26px;
+}
+
+.button-favorite {
+  border-radius: 4px;
+  border-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.rating {
+  background-image: url(../img/icons/star.svg);
+  background-repeat: no-repeat;
+}
+
+.hotel-card-rating {
+  width: 140px;
+  height: 37px;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 8px 22px;
+}
+
+.pagination {
+  list-style-type: none;
+}
+
+.pagination-link {
+  width: 60px;
+  height: 60px;
+  background: #82B3D3;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-current {
+  background: #F2F2F2;
+  color: inherit;
+}
